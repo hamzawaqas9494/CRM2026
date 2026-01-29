@@ -4,6 +4,14 @@ module.exports = {
     "./src/**/*.{js,ts,jsx,tsx,html}"
   ],
   theme: {
+    container: {
+      center: true,
+      padding: {
+        DEFAULT: "1rem",   // mobile
+      
+     
+      },
+    },
     extend: {
       fontFamily: {
         poppins: ['Poppins', 'sans-serif'],
