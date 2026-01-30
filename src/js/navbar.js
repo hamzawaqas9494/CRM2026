@@ -2,10 +2,7 @@ export function initNavbar() {
   const btn = document.getElementById('profile-btn');
   const menu = document.getElementById('profile-dropdown');
 
-
-
   if (!btn || !menu) return;
-
   btn.addEventListener('click', e => {
     e.stopPropagation();
     menu.classList.toggle('hidden');
